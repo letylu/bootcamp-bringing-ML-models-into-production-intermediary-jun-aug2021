@@ -1,0 +1,10 @@
+# windows users
+# %%writefile $experiment_folder\batch_environment.yml
+name: batch_environment
+dependencies:
+- python=3.8
+- numpy
+- pandas
+- scikit-learn
+- pip:
+  - azureml-core
