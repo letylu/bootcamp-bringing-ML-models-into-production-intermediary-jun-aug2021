@@ -11,7 +11,8 @@ def init():
     global model
 
     # load the model
-    model_path = Model.get_model_path('linear_regression')
+    #model_path = Model.get_model_path('linear_regression')
+    model_path = Model.get_model_path('ridge')
     model = joblib.load(model_path)
 
 def run(mini_batch):
