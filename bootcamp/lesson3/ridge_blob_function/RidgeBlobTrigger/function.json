@@ -1,0 +1,19 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "inputBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "predictions-input/{name}",
+      "connection": "StorageConnectionString"
+    },
+    {
+      "name": "predictions",
+      "type": "blob",
+      "direction": "out",
+      "path": "predictions-output/{name}",
+      "connection": "StorageConnectionString"
+    }
+  ]
+}

@@ -102,7 +102,7 @@ if __name__=='__main__':
     test_ds = Dataset.get_by_name(ws, name="test_nyc_demand_data")
     test = test_ds.to_pandas_dataframe()
 
-    eval_experiment = Experiment(ws, name="Evaluation")
+    eval_experiment = Experiment(ws, name="Evaluation_ridge")
     run = eval_experiment.start_logging()
     run.log("dataset name", test_ds.name)
     run.log("dataset version", test_ds.version)

@@ -1,0 +1,10 @@
+{
+    "azureFunctions.deploySubpath": "bootcamp/lesson3/ridge_blob_function",
+    "azureFunctions.scmDoBuildDuringDeployment": true,
+    "azureFunctions.pythonVenv": ".venv",
+    "azureFunctions.projectLanguage": "Python",
+    "azureFunctions.projectRuntime": "~3",
+    "debug.internalConsoleOptions": "neverOpen",
+    "azureFunctions.projectSubpath": "bootcamp/lesson3/ridge_blob_function",
+    "azureML.defaultWorkspaceId": "/subscriptions/1e7eebf7-7dfc-4e94-9219-13ee1fc677f1/resourceGroups/mlops_bootcamp/providers/Microsoft.MachineLearningServices/workspaces/mlops"
+}
